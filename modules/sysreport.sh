@@ -1,0 +1,15 @@
+#!/bin/bash
+REPORT="$HOME/AutoSysCare/reports/sysreport_$(date +%F_%T).log"
+echo "System Report - $(date)" > "$REPORT"
+echo >> "$REPORT"
+uptime >> "$REPORT"
+echo >> "$REPORT"
+lscpu | grep -E 'Model name|CPU\(s\)|Thread' >> "$REPORT"
+echo >> "$REPORT"
+free -h >> "$REPORT"
+echo >> "$REPORT"
+df -h >> "$REPORT"
+echo >> "$REPORT"
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -n 6 >> "$REPORT"
+echo "Report saved to $REPORT"
+
