@@ -1,17 +1,17 @@
 # AutoSysCare
-# AutoSysCare 🖥️⚙️
+
 
 **AutoSysCare** is a Linux-based automation toolkit built with Bash scripting to simplify routine system maintenance and monitoring tasks. It helps system administrators and Linux users keep their environment clean, stable, and error-free.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Automated cleanup of temporary files  
-- ✅ Disk usage tracking (before and after cleanup)  
-- ✅ Real-time log file monitoring for system errors  
-- ✅ Scheduled execution using `crontab`  
-- ✅ Timestamped system health reports  
+-  Automated cleanup of temporary files  
+-  Disk usage tracking (before and after cleanup)  
+-  Real-time log file monitoring for system errors  
+-  Scheduled execution using `crontab`  
+-  Timestamped system health reports  
 
 ---
 
@@ -26,16 +26,16 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-- 🐧 Linux (Ubuntu)  
-- 🐚 Bash scripting  
-- ⏱️ Cron jobs for scheduling  
-- 🔐 SSH-based GitHub integration  
+-  Linux (Ubuntu)  
+-  Bash scripting  
+- ⏱ Cron jobs for scheduling  
+-  SSH-based GitHub integration  
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Madhumithaa D K**  
 B.E. Electronics and Communication Engineering  
